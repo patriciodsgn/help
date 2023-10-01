@@ -1,36 +1,101 @@
-# mongodb
+# Títulos
+
+## Título de nivel 2
+
+### Título de nivel 3
+
+#### Título de nivel 4
+
+##### Título de nivel 5
+
+###### Título de nivel 6
 
 
-`use <nombre_database>`    Cambiar a una base de datoso crear una nueva
-`db`                       Mostrar la base de datos actual
-`show dbs`                 Listar las bases de datos
-`show collections`         Listar las colecciones en la base de datos actual
+## Listas
 
-`use <nombre_database>`    Cambiar a una base de datoso crear una nueva
-`db`                       Mostrar la base de datos actual
-`show dbs`                 Listar las bases de datos
-`show collections`         Listar las colecciones en la base de datos actual
+### Lista no ordenada
+- Elemento 1
+- Elemento 2
+- Elemento 3
+
+### Lista ordenada
+1. Primer elemento
+2. Segundo elemento
+3. Tercer elemento
 
 
-Mostrar la base de datos actual
-``` js
-const x = 342
-console.log('hello')
+## Texto en negrita y cursiva
+
+**Texto en negrita**
+
+*Texto en cursiva*
+
+***Texto en negrita y cursiva***
+
+
+## Enlaces e imágenes
+
+[Texto del enlace](https://www.ejemplo.com)
+
+![Texto alternativo de la imagen](https://www.ejemplo.com/imagen.jpg)
+
+
+## Citas
+
+> Esto es una cita cita cita cita cita cita cita cita cita cita cita cita cita cita cita cita cita cita cita cita cita cita cita cita cita cita cita cita cita cita cita cita cita cita cita cita cita.
+
+
+## Línea horizontal
+
+---
+
+## Código en línea y bloques de código
+
+`console.log("Hola, mundo");`
+
+```
+def saludar():
+print("Hola, mundo")
 ```
 
-Mostrar la base de datos actual
-``` js
-const x = 342
-console.log('hello')
+```python
+# Esto es un bloque de código en Python
+def saludar():
+    print("Hola, mundo")
 ```
 
+## Tablas
 
 
 
+| Encabezado 1  | Encabezado 2  |
+|---------------|---------------|
+| Celda 1,1     | Celda 1,2     |
+| Celda 2,1     | Celda 2,2     |
+| Celda 1,1     | Celda 1,2     |
+| Celda 2,1     | Celda 2,2     |
 
-    
-`db`                       Mostrar la base de datos actual
-`show dbs`                 Listar las bases de datos
-`show collections`         Listar las colecciones en la base de datos actual
 
 
+![Texto alternativo de la imagen](./assets/img/demo2.png)
+<img src="./assets/img/demo.png" alt="Texto alternativo de la imagen" width="300" height="200">
+
+
+
+## Notas al pie[^1]
+
+[^1]: Esta es una nota al pie de página.
+
+
+## Tachado y subrayado
+
+~~Texto tachado~~
+
+<u>Texto subrayado</u>
+
+
+## Listas de tareas
+
+- [x] Tarea completada
+- [ ] Tarea pendiente
+- [ ] Otra tarea pendiente

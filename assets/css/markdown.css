@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.main {
+  display: block;
+  width: 100%;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  border: 10px solid #cfc;
+  padding: 50px;
+  white-space: pre;
+  background: #ffffff;
+  color: #1F2328;
+}
+
+.main p{
+  margin: 0;
+  white-space: pre-line;
+}
+
+
+.main ol,
+.main ul{
+  white-space: wrap;
+  list-style-position: inside;
+  margin-left: 20px;
+}
+
+.main li{
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.main hr{
+  height: 3px;
+  background-color: #D0D7DD;
+}
+
+.main h1{
+  font-size: 32px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #D0D7DD;
+  font-weight: 700;
+}
+
+.main h2{
+  font-size: 24px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #D0D7DD;
+  font-weight: 700;
+}
+
+.main h3{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.main h4{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.main h5{
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.main h6{
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.main a{
+  color: #0B69DA;
+  text-decoration: none;
+}
+
+.main a:hover{
+  color: #0B69DA;
+  text-decoration: underline;
+}
+
+.main blockquote{
+  white-space: wrap;
+  border-left: 4px solid #D0D7DD;
+  padding-left: 20px;
+  color: #646D76;
+}
+
+.main pre{
+  /* background-color: #EEF1F2; */
+  /* color: #1F2328; */
+  /* padding: 1px 3px; */
+  display: block;
+  /* border: 1px solid #0f0; */
+  margin: 0!important;
+  padding: 1px 3px;
+  width: fit-content;
+  background-color: #272822;
+  border-radius: 4px;
+}
+.main pre code{
+  padding: 1px;
+  background-color: transparent;
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}
+
+.main code{
+  /* background-color: #EEF1F2; */
+  background-color: #272822;
+  /* color: #1F2328; */
+  color: #EEF1F2;
+  padding: 1px 3px;
+  width: fit-content;
+  font-size: 16px;
+  border-radius: 4px;
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main table{
+  border-collapse: collapse;
+}
+
+.main thead{
+  position: relative;  
+}
+
+.main th{
+  border: 1px solid #D0D7DD;
+  padding: 6px 10px;
+  font-weight: 500;
+}
+
+.main td{
+  padding: 6px 10px;
+  border: 1px solid #D0D7DD;
+}
+
+.main tr:nth-child(odd){
+  
+}
+
+.main tr:nth-child(even){
+  background-color: #F5F8FA;
+}
+
+

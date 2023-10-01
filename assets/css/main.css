@@ -20,20 +20,16 @@ body{
   flex-wrap: wrap;
   flex-direction: column;
   width: 100%;
-  border: 1px solid #000;
 }
 
 .header{
   width: 100%;
+  padding: 20px;
+  background-color: #333;
   border-bottom: 1px solid #333;
-  padding: 30px;
 }
 
-.main{
-  width: 100%;
-  min-height: 100vh;
-  /* border: 1px solid #cfc; */
-}
+
 
 .footer{
   width: 100%;
@@ -48,15 +44,7 @@ body{
 }
 
 
-h1{
-  text-transform: uppercase;
-  font-size: 50px;
-  margin: 0;
-  padding: 0;
-  line-height: 100%;
-  width: fit-content;
-  color: #888;
-}
+
 
 nav span{
   font-weight: bold;
@@ -69,29 +57,15 @@ nav a{
 }
 
 
-/* 
 
-pre{
-  background-color: #333;
-  color: #12ed1d;
-  padding: 1px 3px;
-  width: fit-content;
-}
 
-pre code{
-  padding: 1px;
-}
-
-code{
-  background-color: #333;
-  color: #12ed1d;
-  padding: 1px 3px;
-  width: fit-content;
+.logo{
+  width: 200px;
+  margin-bottom: 20px;
 }
 
 
 
- */
 
 /* 
 @media (prefers-color-scheme: dark) {
@@ -102,8 +76,8 @@ code{
 } */
 
 
+/*
 
-.logo{
-  width: 200px;
-  margin-bottom: 20px;
-}
+github.com style (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/

@@ -3243,6 +3243,7 @@
       codeblock = codeblock.replace(/\n+$/g, ''); // trim trailing whitespace
   
       codeblock = '<pre><code' + (language ? ' class="' + language + ' language-' + language + '"' : '') + '>' + codeblock + end + '</code></pre>';
+      // codeblock = '<pre><code' + (language ? ' class="' + language + ' language-' + language + '"' : '') + '>' + codeblock + end + '</code></pre>';
   
       codeblock = showdown.subParser('hashBlock')(codeblock, options, globals);
   
