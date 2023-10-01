@@ -35,9 +35,9 @@
 
 ## Enlaces e imágenes
 
-[Texto del enlace](https://www.ejemplo.com)
+[Texto del enlace](./assets/img/demo2.png)
 
-![Texto alternativo de la imagen](https://www.ejemplo.com/imagen.jpg)
+![Texto alternativo de la imagen](./assets/img/demo2.png)
 
 
 ## Citas
