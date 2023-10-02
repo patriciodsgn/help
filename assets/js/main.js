@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
   
   async function logInfo(value) {
-    const response = await fetch(`./${value}.md`)
+    const response = await fetch(`../assets/data/${value}.md`)
     const info = await response.text()
     
     const converter = new showdown.Converter({

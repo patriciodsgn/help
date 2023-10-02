@@ -1,4 +1,18 @@
-# Títulos
+# MongoDB
+
+`mongo sh` iniciar mongo
+`show dbs` iniciar mongo
+`use example` iniciar mongo
+`db` iniciar mongo
+`db.createColelctions('example2')` iniciar mongo
+iniciar mongo
+```
+db.example2.insert({
+"title": "cosa 1",
+"description": "bla bla bla",
+"done": false
+})
+``` 
 
 ## Título de nivel 2
 
@@ -35,9 +49,9 @@
 
 ## Enlaces e imágenes
 
-[Texto del enlace](./assets/img/demo2.png)
+[Texto del enlace](../assets/img/demo2.png)
 
-![Texto alternativo de la imagen](./assets/img/demo2.png)
+![Texto alternativo de la imagen](../assets/img/demo2.png)
 
 
 ## Citas
@@ -77,8 +91,8 @@ def saludar():
 
 
 
-![Texto alternativo de la imagen](./assets/img/demo2.png)
-<img src="./assets/img/demo.png" alt="Texto alternativo de la imagen" width="300" height="200">
+![Texto alternativo de la imagen](../assets/img/demo2.png)
+<img src="../assets/img/demo.png" alt="Texto alternativo de la imagen" width="300" height="200">
 
 
 
